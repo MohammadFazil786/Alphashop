@@ -1,0 +1,6 @@
+.Layout {
+  width: 100%;
+  position: absolute;
+  background-color: white;
+  z-index: 100;
+}

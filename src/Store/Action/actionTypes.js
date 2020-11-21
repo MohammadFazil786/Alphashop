@@ -1,0 +1,16 @@
+export const SIGNUPSUCCESS = 'SIGNUPSUCCESS';
+export const ERROR = 'ERROR';
+export const GETDATA = 'GETDATA';
+export const DATASUCCESS = 'DATASUCCESS';
+export const GETBYID = 'GETBYID';
+export const GETBYCATID = 'GETBYCATID';
+export const ADDTOCART = 'ADDTOCART';
+export const getBYSearch = 'getBySearch';
+export const AUTH_LOGOUT = 'AUTH_LOGOUT';
+export const AUTH_SUCCESS = 'AUTH_SUCCESS';
+export const AUTH_FAIL = 'AUTH_FAIL';
+export const CART_DATA = 'CART_DATA';
+export const USER_DATA = 'USER_DATA';
+export const PREV_ORDER = 'PREV_ORDER';
+export const ORDER_SUCCESS = 'ORDER_SUCCESS';
+export const ERRORNULL = 'ERRORNULL'

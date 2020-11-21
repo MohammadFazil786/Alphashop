@@ -1,0 +1,71 @@
+.body {
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  background: #1fa2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #08d4c4,
+    #08d4c3e3,
+    #01ab9d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  /* MintyGreenLight: '#08d4c4',
+  MintyGreenMedium: '#01ab9d', */
+  background: linear-gradient(
+    to right,
+    #08d4c4,
+    #08d4c3e3,
+    #01ab9d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-top: 50px;
+  z-index: 200;
+  transition: transform 0.3s ease-out;
+}
+.sidelink1 {
+  margin-top: 10px;
+  border-bottom: 2px whitesmoke solid;
+  padding-bottom: 10px;
+  border-top: 4px white solid;
+  padding-top: 20px;
+}
+.sidelink {
+  margin-top: 10px;
+  border-bottom: 2px whitesmoke solid;
+  padding-bottom: 10px;
+}
+.log {
+  margin-top: 10px;
+}
+.Open {
+  transform: translateX(0);
+}
+.Close {
+  transform: translateX(-100%);
+}
+.list {
+  list-style: none;
+  margin-top: 40px;
+}
+.list li a{
+  font-size: 20px;
+  color: darkblue;
+}
+.list li a.active{
+  color: white;
+}
+@media (max-width: 770px) {
+  .list {
+    margin-top: 60px;
+  }
+  .list li a{
+    font-size: 16px;
+  }
+  .body {
+    width: 300px;
+  }
+}
+@media(max-width: 700px){
+  .body{
+    margin-top: 70px;
+  }
+}

@@ -1,0 +1,36 @@
+.set1 {
+  margin-left: -1%;
+}
+.set2 {
+  margin-left: -4%;
+}
+.link {
+  background-color: rgb(232, 175, 250);
+  border-radius: 3px;
+}
+.navcolor2 {
+  background-color: #08d4c4;
+  box-shadow: none;
+  /* margin-top: 56px; */
+}
+.h4 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.nav1 {
+  background-color: #08d4c4;
+  box-shadow: none;
+}
+.nav1child {
+  width: 40rem;
+}
+@media (max-width: 767px) {
+  .set1 {
+    margin-left: 0%;
+    margin-top: -27px;
+  }
+  .set2 {
+    margin-left: 0%;
+  }
+}
